@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+namespace LogicalPrograms
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Fibonacci fibonacci = new Fibonacci();
+            fibonacci.CheckNumIsFibo();
+
+        }
+    }
+
+}
+    
