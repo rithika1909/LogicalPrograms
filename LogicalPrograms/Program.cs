@@ -34,15 +34,23 @@ namespace LogicalPrograms
                         stopWatch.Run();
                         break;
                     case 6:
-                        VendingMachine vendingMachine = new VendingMachine();
-                        vendingMachine.Run();
-                    case 6:
                         Coupon coupon = new Coupon();
                         coupon.GetCoupon();
+                        break;
                     case 7:
                         DayOfWeek dayOfWeek = new DayOfWeek();
                         dayOfWeek.PrintDayOfWeek();
-                    case 6:
+                        break;
+                    case 8:
+                        VendingMachine vendingMachine = new VendingMachine();
+                        vendingMachine.Run();
+                        break;
+                    case 9:
+                        TemperatureConversion temperatureConversion = new TemperatureConversion();
+                        temperatureConversion.ConvertTemperature();
+                        break;
+
+                    case 10:
                         flag = false;
                         break;
 
