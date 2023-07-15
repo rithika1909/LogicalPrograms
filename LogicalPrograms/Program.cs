@@ -9,8 +9,10 @@ namespace LogicalPrograms
             //fibonacci.CheckNumIsFibo();
             //PrimeNumber primeNumber = new PrimeNumber();
             //primeNumber.CheckNumberIsPrime();
-            PerfectNumber perfectNumber = new PerfectNumber();
-            perfectNumber.CheckPerfectNumber();
+            //PerfectNumber perfectNumber = new PerfectNumber();
+            //perfectNumber.CheckPerfectNumber();
+            ReverseNumber reverseNumber = new ReverseNumber();
+            reverseNumber.PrintReverseNumber();
 
         }
     }
