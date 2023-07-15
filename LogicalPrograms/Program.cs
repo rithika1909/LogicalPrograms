@@ -5,8 +5,10 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Fibonacci fibonacci = new Fibonacci();
-            fibonacci.CheckNumIsFibo();
+            //Fibonacci fibonacci = new Fibonacci();
+            //fibonacci.CheckNumIsFibo();
+            PrimeNumber primeNumber = new PrimeNumber();
+            primeNumber.CheckNumberIsPrime();
 
         }
     }
