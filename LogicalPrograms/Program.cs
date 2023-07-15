@@ -7,8 +7,10 @@ namespace LogicalPrograms
         {
             //Fibonacci fibonacci = new Fibonacci();
             //fibonacci.CheckNumIsFibo();
-            PrimeNumber primeNumber = new PrimeNumber();
-            primeNumber.CheckNumberIsPrime();
+            //PrimeNumber primeNumber = new PrimeNumber();
+            //primeNumber.CheckNumberIsPrime();
+            PerfectNumber perfectNumber = new PerfectNumber();
+            perfectNumber.CheckPerfectNumber();
 
         }
     }
