@@ -34,6 +34,9 @@ namespace LogicalPrograms
                         stopWatch.Run();
                         break;
                     case 6:
+                        Coupon coupon = new Coupon();
+                        coupon.GetCoupon();
+                    case 6:
                         flag = false;
                         break;
 
