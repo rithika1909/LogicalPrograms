@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograms
 {
-    internal class DayOfWeek
+    public class DayOfWeek
     {
+        public void PrintDayOfWeek()
+        {
+            Console.WriteLine(" Enter the day : ");
+            int date = Convert.ToInt32(Console.ReadLine());
+            Console.Write(" Enter the month : ");
+            int month = Convert.ToInt32(Console.ReadLine());
+            Console.Write(" Enter the year : ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            DateTime ss = new DateTime(date, month, year);
+
+            Console.WriteLine(ss.DayOfWeek);
+        }
+
     }
+    
 }
