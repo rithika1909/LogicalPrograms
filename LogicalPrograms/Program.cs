@@ -36,6 +36,9 @@ namespace LogicalPrograms
                     case 6:
                         Coupon coupon = new Coupon();
                         coupon.GetCoupon();
+                    case 7:
+                        DayOfWeek dayOfWeek = new DayOfWeek();
+                        dayOfWeek.PrintDayOfWeek();
                     case 6:
                         flag = false;
                         break;
