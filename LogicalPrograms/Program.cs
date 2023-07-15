@@ -49,8 +49,12 @@ namespace LogicalPrograms
                         TemperatureConversion temperatureConversion = new TemperatureConversion();
                         temperatureConversion.ConvertTemperature();
                         break;
-
                     case 10:
+                        MonthlyPayment monthlyPayment = new MonthlyPayment();
+                        monthlyPayment.GetAmount();
+                        break;
+
+                    case 11:
                         flag = false;
                         break;
 
